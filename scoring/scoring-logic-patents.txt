@@ -1,0 +1,85 @@
+﻿Scoring Framework for Patent-Based Trend Analysis
+Credibility Scoring (Weight: 30%) X Frequency Scoring (Weight: 25%) X Recency Scoring (Weight: 25%) X  Relevance Scoring (Weight: 20%)
+
+
+Credibility = (Patent Office Score × 0.4) + (Assignee Score × 0.3) + (Quality Indicators × 0.3)
+Frequency = (Growth Rate × 0.4) + (Volume × 0.3) + (Competitive Intensity × 0.3)
+Recency = (Timeline Score × 0.5) + (Acceleration × 0.3) + (Evolution Signals × 0.2)
+Relevance = (Commercial Applicability × 0.5) + (Strategic Value × 0.25) + (Market Validation × 0.25)
+1. Credibility Scoring (Weight: 30%)
+Credibility = (Patent Office Score × 0.4) + (Assignee Score × 0.3) + (Quality Indicators × 0.3)
+Patent Office Tier Assessment (0-10 scale):
+* Tier 1 (9-10 points): Triadic patents (filed in USPTO, EPO, and JPO simultaneously)
+* Tier 2 (7-8 points): USPTO or EPO patents with examination completed
+* Tier 3 (5-6 points): Single major office (USPTO, EPO, JPO, CNIPA) with granted status
+* Tier 4 (3-4 points): PCT applications or pending applications in major offices
+* Tier 5 (1-2 points): Single country filings, provisional patents, or applications only
+Assignee Authority Metrics:
+* Industry Leaders (10 points): Fortune 500, recognized innovation leaders (IBM, Samsung, Google)
+* Specialized Leaders (8 points): Domain leaders in specific technology (ASML for lithography)
+* Mid-tier Innovators (6 points): Established companies with consistent patent portfolios
+* Startups/Scale-ups (4 points): VC-backed companies with <500 employees
+* Individual inventors (2 points): Non-affiliated inventors or micro-entities
+Patent Quality Indicators:
+* Number of independent claims >10: +2 bonus
+* Cited by >20 subsequent patents: +2 bonus
+* Examiner citations to patent during other examinations: +1 bonus
+* Standard-essential patent (SEP): +3 bonus
+* Litigation history (survived challenge): +2 bonus
+* Licensed to multiple parties: +2 bonus
+2. Frequency Scoring (Weight: 25%)
+Frequency = (Growth Rate × 0.4) + (Volume × 0.3) + (Competitive Intensity × 0.3)
+Patent Filing Velocity Metrics:
+* Explosive growth (10 points): >200% year-over-year increase in patent families
+* Rapid growth (8 points): 100-200% YoY increase
+* Strong growth (6 points): 50-100% YoY increase
+* Moderate growth (4 points): 20-50% YoY increase
+* Emerging (2 points): <20% YoY increase
+Absolute Volume Thresholds:
+* 1000 patent families/year in classification: +3 bonus
+* 500 patent families/year: +2 bonus
+* 100 patent families/year: +1 bonus
+
+Competitive Intensity Metrics:
+   * 50 different assignees filing patents: +2 bonus
+   * Top 5 assignees control <50% of patents: +2 bonus (indicates broad competition)
+   * New entrants (companies filing first patents in space): +1 per 10 new entrants (max +3)
+   * Geographic diversity (>2 countries): +1 bonus
+3. Recency Scoring (Weight: 25%)
+Recency = (Timeline Score × 0.5) + (Acceleration × 0.3) + (Evolution Signals × 0.2)
+Filing Timeline Analysis:
+   * Cutting edge (10 points): >70% of patents filed in last 18 months
+   * Current wave (8 points): >60% filed in last 24 months
+   * Recent surge (6 points): >50% filed in last 36 months
+   * Steady stream (4 points): Consistent filings over 3-5 years
+   * Mature field (2 points): Patent activity >5 years old
+Innovation Acceleration Indicators:
+   * Priority claims showing shortened development cycles: +2 bonus
+   * Continuation-in-part (CIP) applications showing rapid iteration: +2 bonus
+   * Fast-track examination requests: +1 bonus
+   * Multiple divisional applications (indicating broad innovation): +1 bonus
+Technology Evolution Signals:
+   * New CPC/IPC classifications created for technology: +3 bonus
+   * Patent offices issuing examination guidelines for field: +2 bonus
+   * Increase in PCT filings (international protection sought): +2 bonus
+   * Provisional-to-nonprovisional conversion rate >80%: +1 bonus
+4. Relevance Scoring (Weight: 20%)
+Relevance = (Commercial Applicability × 0.5) + (Strategic Value × 0.25) + (Market Validation × 0.25)
+Commercial Applicability:
+   * Market-ready (10 points): Products already using patented technology
+   * Near-market (8 points): Prototype/pilot stage, licensing discussions active
+   * Development stage (6 points): Clear path to commercialization within 2-3 years
+   * Research phase (4 points): Practical applications identified but 3-5 years out
+   * Exploratory (2 points): Theoretical or very early-stage research
+Strategic Value Indicators:
+   * Blocking patents (defensive value): +2 bonus
+   * Platform patents (enable multiple products): +3 bonus
+   * Patent pools formed around technology: +2 bonus
+   * Cross-licensing agreements: +1 bonus
+   * Patent purchases/acquisitions in space: +2 bonus
+Market Validation Metrics:
+   * Corresponding products launched: +3 bonus
+   * Patent litigation (shows commercial value): +2 bonus
+   * Mentioned in industry standards: +2 bonus
+   * Third-party validity challenges (IPR/opposition): +1 bonus (shows competitors care)
+   * SEC filing mentions: +1 bonus

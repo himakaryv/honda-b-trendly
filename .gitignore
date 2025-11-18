@@ -1,0 +1,18 @@
+# Virtual environments
+venv/
+.env
+.venv/
+
+# Python caches
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+.env.local
+
+# MacOS clutter
+.DS_Store
+
+# Logs / temp files
+*.log

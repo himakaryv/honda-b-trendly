@@ -1,0 +1,146 @@
+﻿Scoring Framework for News, Google Trends, and Social Media Listening
+
+
+Credibility Scoring (Weight: 25%) X Frequency Scoring (Weight: 30%) X  Recency Scoring (Weight: 25%) x Relevance Scoring (Weight: 20%)
+
+
+Credibility = (News Authority × 0.3) + (Social Authority × 0.3) + (Search Quality × 0.25) + (Verification × 0.15)
+Frequency = (News × 0.25) + (LinkedIn × 0.2) + (Twitter × 0.2) + (Reddit × 0.15) + (Search × 0.2)
+Recency = (News × 0.25) + (Social Momentum × 0.35) + (Search × 0.25) + (Platform Convergence × 0.15)
+Relevance = (Industry Context × 0.3) + (Social Sentiment × 0.35) + (Commercial Intent × 0.2) + (Actionability × 0.15)
+
+
+
+
+1. Credibility Scoring (Weight: 25%)
+News Source Authority Assessment (0-10 scale):
+* Tier 1 (9-10 points): Global business media (WSJ, FT, Bloomberg, Reuters, The Economist)
+* Tier 2 (7-8 points): National majors (NYT, WaPo), specialized trade media (TechCrunch, Industry Week)
+* Tier 3 (5-6 points): Regional business press, industry newsletters, credible digital natives
+* Tier 4 (3-4 points): Aggregators, corporate newsrooms, emerging media outlets
+* Tier 5 (1-2 points): Unverified blogs, social media posts, content farms
+Social Media Authority Signals:
+* LinkedIn (Professional weight: 9-10 points):
+   * C-suite executives discussing trend: +3 bonus
+   * Industry thought leaders (>50K followers) posting: +2 bonus
+   * Company pages announcing initiatives: +2 bonus
+   * Professional groups with >10K members discussing: +1 bonus
+* X/Twitter (Influencer weight: 7-8 points):
+   * Verified industry accounts discussing: +2 bonus
+   * Threading with data/analysis (not just opinions): +2 bonus
+   * Tech/Business journalists amplifying: +1 bonus
+   * Viral professional threads (>1K retweets): +1 bonus
+* Reddit (Community weight: 6-7 points):
+   * Multiple subreddit discussions (r/technology, r/business, etc.): +2 bonus
+   * High-quality posts with sources/data: +2 bonus
+   * Industry-specific subreddit validation: +1 bonus
+   * AMA with industry experts: +1 bonus
+Google Trends Signal Quality:
+* High confidence (9-10 points): Clear sustained pattern over 12+ months
+* Strong signal (7-8 points): Consistent growth over 6-12 months
+* Moderate signal (5-6 points): Emerging pattern over 3-6 months
+* Weak signal (3-4 points): Volatile but upward trend
+* Noise (1-2 points): Sporadic spikes without pattern
+Cross-Platform Verification:
+* Consensus across news + search + social: +3 bonus
+* Professional (LinkedIn) validates consumer (Reddit) interest: +2 bonus
+* Geographic consistency across platforms: +1 bonus
+* Influencer and grassroots alignment: +1 bonus
+
+
+2. Frequency Scoring (Weight: 30%)
+News Volume Metrics:
+* Saturation coverage (10 points): >100 articles/week across major outlets
+* Heavy coverage (8 points): 50-100 articles/week
+* Moderate coverage (6 points): 20-50 articles/week
+* Emerging coverage (4 points): 5-20 articles/week
+* Sporadic mentions (2 points): <5 articles/week
+Social Media Volume Metrics:
+LinkedIn Engagement:
+* Viral professional (10 points): >500 posts/week, >100K total engagement
+* High buzz (8 points): 200-500 posts/week from professionals
+* Growing discussion (6 points): 50-200 posts/week
+* Niche conversation (4 points): 10-50 posts/week
+* Minimal presence (2 points): <10 posts/week
+X/Twitter Velocity:
+* Trending topic (10 points): Multiple hashtags trending, >10K tweets/day
+* High velocity (8 points): 5-10K tweets/day
+* Active discussion (6 points): 1-5K tweets/day
+* Moderate chatter (4 points): 100-1K tweets/day
+* Low buzz (2 points): <100 tweets/day
+Reddit Engagement:
+* Front page material (10 points): Multiple posts with >1K upvotes
+* Subreddit hot topic (8 points): Top posts in relevant subreddits
+* Active threads (6 points): 10+ active discussions
+* Emerging topic (4 points): 3-10 threads with engagement
+* Sporadic mentions (2 points): Occasional comments only
+Google Trends Search Intensity:
+* Breakout term (10 points): >5000% increase, labeled "Breakout"
+* Rapid growth (8 points): 500-5000% increase
+* Strong growth (6 points): 100-500% increase
+* Steady growth (4 points): 25-100% increase
+* Slight increase (2 points): <25% increase
+
+
+3. Recency Scoring (Weight: 25%)
+News Temporal Dynamics:
+* Breaking/Accelerating (10 points): Hourly updates, breaking news alerts
+* Hot topic (8 points): Daily coverage with new developments
+* Active story (6 points): Weekly updates and analysis pieces
+* Periodic coverage (4 points): Monthly feature articles
+* Historical reference (2 points): Quarterly or less frequent
+Social Media Momentum Indicators:
+LinkedIn Signals:
+* Weekly "pulse" articles on topic: +2 bonus
+* LinkedIn News featuring trend: +2 bonus
+* Increasing executive commentary: +1 bonus
+* LinkedIn Learning courses launched: +1 bonus
+X/Twitter Momentum:
+* Spaces/audio discussions scheduled: +2 bonus
+* Influential accounts just joining conversation: +2 bonus
+* Hashtag velocity increasing >50% week-over-week: +1 bonus
+* Cross-industry discussion emerging: +1 bonus
+Reddit Evolution:
+* New subreddit created for topic: +2 bonus
+* Pinned threads/megathreads created: +2 bonus
+* Wiki/resource pages being built: +1 bonus
+* Cross-posting across multiple subreddits: +1 bonus
+Search Trend Momentum:
+* Vertical spike (10 points): Current month is peak, sharp acceleration
+* Strong momentum (8 points): 3-month moving average rising >50%
+* Building momentum (6 points): 6-month trend positive
+* Gradual rise (4 points): 12-month trend positive but slow
+* Plateau/declining (2 points): Flat or negative recent movement
+Recency Score Formula:
+Recency = (News × 0.25) + (Social Momentum × 0.35) + (Search × 0.25) + (Platform Convergence × 0.15)
+4. Relevance Scoring (Weight: 20%)
+Industry Context Alignment:
+* Direct industry focus (10 points): Specifically about your sector
+* Strong relevance (8 points): Clear implications discussed
+* Applicable insights (6 points): Transferable to your context
+* Indirect relevance (4 points): Requires interpretation
+* Peripheral (2 points): Minimal connection
+Social Sentiment Quality:
+LinkedIn Professional Relevance:
+* Industry leaders implementing: +3 bonus
+* Case studies shared: +2 bonus
+* Job postings mentioning trend: +2 bonus
+* Skills courses trending: +1 bonus
+X/Twitter Commercial Signals:
+* Companies announcing adoption: +2 bonus
+* Customer success stories: +2 bonus
+* Competitor mentions increasing: +1 bonus
+* Industry analysts covering: +1 bonus
+Reddit Practical Discussion:
+* r/[YourIndustry] actively discussing: +2 bonus
+* Implementation guides shared: +2 bonus
+* Problem-solving threads: +1 bonus
+* Tool recommendations: +1 bonus
+Search Query Commercial Intent:
+* Transactional queries (10 points): "buy," "price," "cost" + term
+* Commercial investigation (8 points): "best," "review," "comparison"
+* Informational with intent (6 points): "how to," "guide," "tutorial"
+* General informational (4 points): "what is," "definition"
+* Awareness only (2 points): Brand or concept only
+Relevance Score Formula:
+Relevance = (Industry Context × 0.3) + (Social Sentiment × 0.35) + (Commercial Intent × 0.2) + (Actionability × 0.15)
