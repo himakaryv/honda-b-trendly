@@ -1,11 +1,3 @@
-Here is a **clean, simple, newcomer-friendly `README.md`** specifically designed so **ANY new team member** can install everything and run your Honda Trend Workflow Agent without confusion.
-
-It avoids jargon, keeps steps clear, and includes all installation commands.
-
----
-
-# ✨ README.md
-
 # **Honda Trend Intelligence Workflow (OpenCode Agent)**
 
 This project contains an **OpenCode-powered AI workflow** that analyzes signals (papers, patents, industry reports, regulatory reports, social/news) and generates **Top Trends** for any technology domain.
