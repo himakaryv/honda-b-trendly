@@ -179,6 +179,11 @@ Ask me for:
 3) Industry boundary
 Then run the full workflow.
 ```
+```
+example : - Purpose: Technology scouting for Honda R&D automotive investments  
+- Time horizon: Next 5 years  
+- Industry boundary: Interiors in Automotive  
+```
 
 ### Step 3 — Provide the inputs when asked
 
